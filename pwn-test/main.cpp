@@ -112,7 +112,7 @@ int PwnThread(HMODULE hModule)
         }
 
         Sleep(25);
-	}
+    }
     pHookManager->UnhookFunction(hPlayerPosition);
     pHookManager->UnhookFunction(hPlayerVelocity);
     delete pHookManager;
